@@ -5,3 +5,8 @@
  * 
  */
 
+function createObj(firstName, lastName) {
+  return { firstName, lastName };
+};
+
+export default createObj;
