@@ -9,4 +9,4 @@ function createObj(firstName, lastName) {
   return { firstName, lastName };
 };
 
-export default createObj;
+module.exports = createObj;

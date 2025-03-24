@@ -9,4 +9,4 @@ function createArray(hobbyOne, hobbyTwo, hobbyThree) {
   return [hobbyOne, hobbyTwo, hobbyThree];
 };
 
-export default createArray;
+module.exports = createArray;

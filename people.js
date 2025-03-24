@@ -7,8 +7,8 @@
  * 
  */
 
-import createObj from './names.js';
-import createArray from './hobbies.js';
+const createObj = require('./names.js');
+const createArray = require('./hobbies.js');
 
 function userData() {
   const { firstName, lastName } = createObj('Valerio', 'Quintilio');
